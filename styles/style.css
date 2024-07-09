@@ -8,6 +8,14 @@
 main{
     /* max-width: 1440px; */
 }
+/* start linear gradient */
+.to-left-grad{
+    background: linear-gradient(to left, rgb(255, 255, 255), rgba(255, 255, 255, 0));
+}
+.to-right-grad{
+    background: linear-gradient(to right, rgb(255, 255, 255), rgba(255, 255, 255, 0));
+}
+/* end linear gradient */
 
 /* common shared style */
 .para-text-primary{
@@ -97,16 +105,6 @@ main{
     flex-direction: column;
     gap: 30px;
 }
-/* start linear gradient */
-.to-left-grad{
-    background: linear-gradient(to left, rgb(255, 255, 255), rgba(255, 255, 255, 0));
-}
-.to-right-grad{
-    background: linear-gradient(to right, rgb(255, 255, 255), rgba(255, 255, 255, 0));
-}
-/* end linear gradient */
-
-/* start why section */
 .why-card-container .textimg{
     padding: 48px;
     border-radius: 16px;
@@ -145,3 +143,47 @@ main{
     margin-left: 32px;
 }
 /* end why section */
+/* start video section  */
+.video-section{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.video-section .video-box h4{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.video-section .video-box p{
+    margin: 24px 300px 48px 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 32px;
+}
+.video-content{
+    width: 1200px;
+    height: 620px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.video-content iframe{
+    display: flex;
+    margin: 0 auto;
+    border-radius: 16px !important;
+    padding: 25px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+/* end video section  */
