@@ -29,6 +29,7 @@ main{
     background: url("../assets/Hero-bg.png");
     margin: 0 auto;
     height: 652px;
+    margin-bottom: 74px;
 }
 .hero-section .hero-content{
     max-width: 998px;
@@ -59,4 +60,71 @@ main{
     letter-spacing: 0%;
     text-align: center;
     padding: 21px 24px;
+}
+/* end of hero section */
+
+/* start of why section */
+.why-section{
+    width: 1200px;
+    height: 1393px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin: 0 auto;
+}
+.why-section .why-textbox{
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    /* padding: 35px; */
+}
+.why-section .why-textbox h4{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    padding-top: 80px;
+}
+.why-section .why-textbox p{
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+.why-section .why-card-container{
+    width: 960px;
+    height: 336px;
+    border: 2px solid;
+    border-radius: 16px;
+    background: linear-gradient(to right, rgb(255, 255, 255), rgba(255, 255, 255, 0));
+    margin: 0 auto;
+    padding: 48px;
+}
+.why-card-container .textimg{
+    display: flex;
+    justify-content: space-between;
+}
+.why-card-container .textimg .textimg-content{
+    margin-right: 90px;
+}
+.textimg h5{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.textimg .textimg-content p{
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+.why-btn{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding: 12px 20px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    cursor: pointer;
 }
