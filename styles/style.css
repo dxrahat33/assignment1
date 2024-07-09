@@ -91,13 +91,26 @@ main{
 .why-section .why-card-container{
     width: 960px;
     height: 336px;
-    border: 2px solid;
     border-radius: 16px;
-    background: linear-gradient(to right, rgb(255, 255, 255), rgba(255, 255, 255, 0));
     margin: 0 auto;
-    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
+/* start linear gradient */
+.to-left-grad{
+    background: linear-gradient(to left, rgb(255, 255, 255), rgba(255, 255, 255, 0));
+}
+.to-right-grad{
+    background: linear-gradient(to right, rgb(255, 255, 255), rgba(255, 255, 255, 0));
+}
+/* end linear gradient */
+
+/* start why section */
 .why-card-container .textimg{
+    padding: 48px;
+    border-radius: 16px;
+    /* border: 2px solid; */
     display: flex;
     justify-content: space-between;
 }
@@ -128,3 +141,7 @@ main{
     opacity: 0.7;
     cursor: pointer;
 }
+.margin-left{
+    margin-left: 32px;
+}
+/* end why section */
