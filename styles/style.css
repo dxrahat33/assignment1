@@ -310,7 +310,7 @@ main{
     font-size: 16px;
     font-weight: 400;
     padding-left: 15px;
-
+    outline: none;
 }
 .sup-submit input:nth-child(2){
     width: 120px;
